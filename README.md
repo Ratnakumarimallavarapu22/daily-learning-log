@@ -11,13 +11,11 @@ Welcome to my learning repository! I am coding and committing **every single day
 
 ## 📈 Daily Progress Log
 
+
 | Day | 📚 Topic | 💻 Code Link | 📝 Key Takeaway |
 | :---: | :--- | :---: | :--- |
-| **01** | Hello World & Variables | [Code](./day-01/) | Learned data types, strings, and printing. |
-| **02** | User Inputs & Math | [Code](./day-02/) | Built a calculator using `input()` and operators. |
-| **03** | Conditionals (`if/else`) | [Code](./day-03/) | Mastered logical flow and decision-making. |
-| **04** | Loops (`for/while`) | [Code](./day-04/) | Automated repetitive tasks with range and iterators. |
-| **05** | Functions | [Code](./day-05/) | Created reusable code blocks using `def`. |
+| **01** | Comprehensions | [Code](./day-01/) | Replaced multi-line loops with elegant 1-line list/dict comprehensions. |
+
 
 *Note: I will update this table daily as I progress!*
 
@@ -26,7 +24,7 @@ Welcome to my learning repository! I am coding and committing **every single day
 ## 🛠️ How to Run My Code
 1. Clone this repository:
    ```bash
-   git clone https://github.com
+  https://github.com/Ratnakumarimallavarapu22/daily-learning-log/commit/ddcf2bd97db0f3fa378a0837136d6bf55ee62b56
    ```
 2. Navigate to the specific day's folder:
    ```bash
