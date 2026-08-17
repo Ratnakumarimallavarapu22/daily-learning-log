@@ -1,0 +1,20 @@
+# Day 1: Mastering List and Dictionary Comprehensions
+
+# 1. Traditional Way (Beginner)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_squares_beginner = []
+for num in numbers:
+    if num % 2 == 0:
+        even_squares_beginner.append(num ** 2)
+print(f"Beginner approach: {even_squares_beginner}")
+
+# 2. List Comprehension Way (Intermediate)
+# Syntax: [expression for item in iterable if condition]
+even_squares_intermediate = [num ** 2 for num in numbers if num % 2 == 0]
+print(f"Intermediate approach: {even_squares_intermediate}")
+
+# 3. Dictionary Comprehension
+# Creating a map of names to their text lengths instantly
+names = ["Alice", "Bob", "Charlie", "David"]
+name_lengths = {name: len(name) for name in names if len(name) > 3}
+print(f"Dictionary comprehension: {name_lengths}")
