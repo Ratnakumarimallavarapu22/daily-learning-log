@@ -14,7 +14,7 @@ Welcome to my learning repository! I am coding and committing **every single day
 
 | Day | 📚 Topic | 💻 Code Link | 📝 Key Takeaway |
 | :---: | :--- | :---: | :--- |
-| **01** | Comprehensions | [Code](./day-01/) | Replaced multi-line loops with elegant 1-line list/dict comprehensions. |
+| **01** | Comprehensions | [Code](./day1/) | Replaced multi-line loops with elegant 1-line list/dict comprehensions. |
 
 
 *Note: I will update this table daily as I progress!*
@@ -24,7 +24,7 @@ Welcome to my learning repository! I am coding and committing **every single day
 ## 🛠️ How to Run My Code
 1. Clone this repository:
    ```bash
-  https://github.com/Ratnakumarimallavarapu22/daily-learning-log/commit/ddcf2bd97db0f3fa378a0837136d6bf55ee62b56
+  
    ```
 2. Navigate to the specific day's folder:
    ```bash
