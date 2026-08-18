@@ -13,7 +13,7 @@ Welcome to my learning repository! I am coding and committing **every single day
 
 
 | **Day 📚** | **Topic 💻** | **Code Link 📝**  | **Key Takeaway**                                                  
-| **01**     | Comprehensions  | [Code](./day1)| Replaced multi-line loops with elegant 1-line list/dict comprehensions.                       |
+| **01**     | Comprehensions  | [Code](./day1)| Replaced multi-line loops with elegant 1-line list/dict comprehensions.   |       
 | **02**     | Python Problem Solving | [Code](./Day2)  | Solved 4 medium-level Python problems and improved logic-building and problem-solving skills. |
 
 
