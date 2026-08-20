@@ -1,0 +1,21 @@
+arr = list(map(int, input("Enter elements: ").split()))
+
+n = len(arr) + 1
+
+expected_sum = n * (n + 1) // 2
+actual_sum = 0
+
+for num in arr:
+    actual_sum += num
+
+missing = expected_sum - actual_sum
+
+print("Array:", arr)
+print("Expected sum:", expected_sum)
+print("Actual sum:", actual_sum)
+print("Missing number:", missing)
+
+if missing > 0:
+    print("Number is missing from the sequence")
+else:
+    print("No number is missing")
