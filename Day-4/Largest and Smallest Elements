@@ -1,0 +1,22 @@
+arr = list(map(int, input("Enter elements: ").split()))
+
+largest = arr[0]
+smallest = arr[0]
+
+for num in arr:
+    if num > largest:
+        largest = num
+    if num < smallest:
+        smallest = num
+
+print("Array:", arr)
+print("Largest:", largest)
+print("Smallest:", smallest)
+
+difference = largest - smallest
+print("Difference:", difference)
+
+if difference > 50:
+    print("Large range")
+else:
+    print("Small range")
