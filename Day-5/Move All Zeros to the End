@@ -1,0 +1,14 @@
+numbers = list(map(int, input("Enter numbers: ").split()))
+
+non_zero = []
+zeros = 0
+
+for num in numbers:
+    if num == 0:
+        zeros += 1
+    else:
+        non_zero.append(num)
+
+result = non_zero + [0] * zeros
+
+print("Result:", result)
