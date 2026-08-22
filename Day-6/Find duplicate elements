@@ -1,0 +1,11 @@
+nums = list(map(int, input("Enter numbers: ").split()))
+
+duplicates = []
+seen = set()
+
+for num in nums:
+    if num in seen and num not in duplicates:
+        duplicates.append(num)
+    seen.add(num)
+
+print("Duplicate elements:", duplicates)
