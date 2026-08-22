@@ -1,0 +1,8 @@
+nums = list(map(int, input("Enter numbers: ").split()))
+
+frequency = {}
+
+for num in nums:
+    frequency[num] = frequency.get(num, 0) + 1
+
+print("Frequency:", frequency)
