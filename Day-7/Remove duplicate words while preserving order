@@ -1,0 +1,12 @@
+text = input("Enter a sentence: ")
+
+words = text.split()
+seen = set()
+result = []
+
+for word in words:
+    if word not in seen:
+        result.append(word)
+        seen.add(word)
+
+print("Result:", " ".join(result))
