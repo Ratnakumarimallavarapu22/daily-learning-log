@@ -19,8 +19,8 @@ Welcome to my learning repository! I am coding and committing **every single day
 | **04**     | Strings & String Manipulation | [Code](./Day-4)   | Practiced string operations, character handling, and common string manipulation techniques. |                                 
 | **05**     | Lists & Dictionaries          | [Code](./Day-5)   | Learned to work with lists and dictionaries for storing, accessing, and processing data.    |                                    
 | **06**     | Arrays & Problem Solving      | [Code](./Day-6)   | Practiced array-based problems and improved logical thinking using Python data structures.  |                                 
-| **07**     | Advanced Problem Solving      | [Code](./Day-7)   | Solved problems using sets, hashing, arrays, strings, and algorithmic techniques.           |
-
+| **07**     | Advanced Problem Solving      | [Code](./Day-7)   | Solved problems using sets, hashing, arrays, strings, and algorithmic techniques.           |                             
+| **08**     | Arrays & Problem Solving      | [Code](./Day-8)   | Practiced array-based problems and improved logical thinking using Python data structures.  |
 
 
 *Note: I will update this table daily as I progress!*
