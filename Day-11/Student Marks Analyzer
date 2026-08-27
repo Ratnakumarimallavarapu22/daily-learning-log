@@ -1,0 +1,16 @@
+marks = {
+    "Rahul": 85,
+    "Anu": 92,
+    "Kiran": 76,
+    "Sita": 89,
+    "Ravi": 95
+}
+
+highest_student = max(marks, key=marks.get)
+lowest_student = min(marks, key=marks.get)
+
+average = sum(marks.values()) / len(marks)
+
+print("Highest:", highest_student, marks[highest_student])
+print("Lowest:", lowest_student, marks[lowest_student])
+print("Average:", round(average, 2))
