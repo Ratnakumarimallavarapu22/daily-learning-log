@@ -1,0 +1,6 @@
+numbers = [45, 12, 78, 34, 89, 23, 67]
+
+unique_numbers = list(set(numbers))
+unique_numbers.sort(reverse=True)
+
+print("Second Largest:", unique_numbers[1])
