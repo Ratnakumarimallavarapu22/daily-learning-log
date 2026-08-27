@@ -1,0 +1,8 @@
+numbers = [2, 3, 2, 5, 3, 2, 7, 5, 3]
+
+frequency = {}
+
+for num in numbers:
+    frequency[num] = frequency.get(num, 0) + 1
+
+print("Frequency:", frequency)
