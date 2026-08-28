@@ -1,0 +1,14 @@
+words = ["apple", "cat", "banana", "dog", "grape", "elephant"]
+
+groups = {}
+
+for word in words:
+    length = len(word)
+
+    if length not in groups:
+        groups[length] = []
+
+    groups[length].append(word)
+
+for length, word_list in sorted(groups.items()):
+    print(length, ":", word_list)
