@@ -1,0 +1,19 @@
+numbers = [2, 7, 11, 15, 3, 6, 4]
+target = 9
+
+pairs = []
+seen = set()
+
+for num in numbers:
+    complement = target - num
+
+    if complement in seen:
+        pair = (complement, num)
+
+        if pair not in pairs:
+            pairs.append(pair)
+
+    seen.add(num)
+
+print("Target:", target)
+print("Pairs:", pairs)
