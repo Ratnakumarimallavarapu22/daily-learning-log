@@ -1,0 +1,18 @@
+students = {
+    "Ravi": 78,
+    "Anu": 92,
+    "Kiran": 85,
+    "Sita": 67,
+    "Rahul": 88
+}
+
+sorted_students = sorted(
+    students.items(),
+    key=lambda item: item[1],
+    reverse=True
+)
+
+print("Students ranked by marks:")
+
+for rank, (name, marks) in enumerate(sorted_students, 1):
+    print(rank, name, marks)
