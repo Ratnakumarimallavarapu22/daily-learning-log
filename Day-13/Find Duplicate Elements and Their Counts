@@ -1,0 +1,14 @@
+numbers = [10, 20, 10, 30, 20, 40, 10, 30, 50]
+
+count = {}
+
+for num in numbers:
+    count[num] = count.get(num, 0) + 1
+
+duplicates = {
+    num: freq
+    for num, freq in count.items()
+    if freq > 1
+}
+
+print("Duplicate elements:", duplicates)
