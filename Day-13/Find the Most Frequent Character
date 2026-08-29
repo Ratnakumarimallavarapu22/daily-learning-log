@@ -1,0 +1,11 @@
+text = "programmingisfun"
+frequency = {}
+
+for char in text:
+    if char != " ":
+        frequency[char] = frequency.get(char, 0) + 1
+
+most_common = max(frequency, key=frequency.get)
+
+print("Frequency:", frequency)
+print("Most frequent character:", most_common)
